@@ -1,0 +1,5 @@
+<div [ngClass]="{'dark':dark}">
+    <ng-container *ngFor="let b of buttonNames">
+        <app-button [name]="b" [dark]="dark"></app-button>
+    </ng-container>
+</div>

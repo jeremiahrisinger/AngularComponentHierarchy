@@ -1,0 +1,10 @@
+div{
+    padding: 20px 0;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dark{
+    background-color: black;
+}
