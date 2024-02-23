@@ -1,0 +1,9 @@
+div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 4vh;
+}
+h1{
+    font-weight: 100;
+}

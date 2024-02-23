@@ -1,1 +1,18 @@
-<app-page [darkMode]="darkMode"></app-page>
+<app-header
+    [applicationName]="title" 
+    [darkMode]="darkMode"
+></app-header>
+<div class="pages" [ngClass]="{'dark':darkMode}">
+    <app-page 
+        [darkMode]="darkMode"
+        [title]="'Testing Page For Application'"
+    ></app-page>
+    <app-page 
+        [darkMode]="darkMode"
+        [title]="'Testing Page 2 For Testing Purposes'"
+    ></app-page>
+    <app-page 
+        [darkMode]="darkMode"
+        [title]="'Final Page Of Testing For This Application That Is Extremely Wide'"
+    ></app-page>
+</div>

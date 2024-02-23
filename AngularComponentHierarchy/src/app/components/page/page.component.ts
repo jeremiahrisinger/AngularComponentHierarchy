@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class PageComponent {
   @Input() buttons: String[] = ['Test', 'Another Test', 'Button'];
   @Input() darkMode: boolean = false;
+  @Input() title: String = '';
 }

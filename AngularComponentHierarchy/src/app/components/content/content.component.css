@@ -1,10 +1,12 @@
 div{
-    padding: 20px 20px;
+    padding: 20px 60px;
     background-color: white;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 20px;
+    max-height: 35vh;
 }
 .dark{
     background-color: rgb(40, 40, 40);

@@ -1,7 +1,9 @@
 div{
-    padding: 10px 0;
+    padding: 10px 20px;
     text-align: center;
-    border-bottom: 1px solid black ;
+    border-bottom: 1px solid lightgrey ;
+    background-color: whitesmoke;
+
 }
 h1{
     font-weight: 100;
@@ -10,4 +12,5 @@ h1{
 .dark{
     background-color: black;
     color: whitesmoke;
+    border-bottom: 1px solid grey ;
 }

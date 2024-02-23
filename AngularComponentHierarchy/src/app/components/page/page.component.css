@@ -1,11 +1,19 @@
 div{
-    border: 1px solid whitesmoke;
+    border: 1px solid lightgrey;
     border-radius: 15px;
-    margin: 10px;
     overflow: hidden;
-    box-shadow: 0px 0px 50px -10px black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    max-height: 50vh;
+    max-width: 100%;
+
 }
 
 .dark{
-    border: 1px solid black;
+    border: 1px solid grey;
+}
+
+@media (width <= 800px) {
+    div{
+        width: 100%;
+    }
 }

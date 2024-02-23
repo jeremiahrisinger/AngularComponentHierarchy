@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularComponentHierarchy';
-  darkMode = true;
+  title = 'Angular Component Hierarchy Application';
+  darkMode = false;
 }

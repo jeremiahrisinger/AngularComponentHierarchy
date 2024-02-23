@@ -1,6 +1,6 @@
-<div>
+<div [ngClass]="{'dark':darkMode}">
     <app-title 
-        [name]="'Testing Page For Application'"
+        [name]="title"
         [dark]="darkMode"
     ></app-title>
     <app-content

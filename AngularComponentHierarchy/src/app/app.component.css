@@ -1,0 +1,21 @@
+.pages{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 20px;
+    overflow-y: scroll;
+    height: 89vh;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.dark{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (width <= 1080px) {
+    .pages{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
