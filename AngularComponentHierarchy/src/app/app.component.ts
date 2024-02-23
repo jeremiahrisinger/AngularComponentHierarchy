@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularComponentHierarchy';
-  buttons: String[] = ['Test', 'Another Test', 'Button'];
-  darkMode: boolean = false;
+  darkMode = true;
 }

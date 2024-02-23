@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class InputComponent {
   @Input() label: String = '';
   @Input() placeholder: String = '';
+  @Input() dark: boolean = false;
 }

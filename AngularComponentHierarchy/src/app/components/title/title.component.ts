@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class TitleComponent {
   @Input() name: String = '';
+  @Input() dark: boolean = false;
 }

@@ -1,6 +1,6 @@
-<div>
-    <app-input [placeholder]="'Test Input'"></app-input>
-    <app-input [placeholder]="'Test Input 1'"></app-input>
-    <app-input [placeholder]="'Test Input 2'"></app-input>
-
+<div [ngClass]="{'dark':dark}">
+    <app-input [placeholder]="'Test Input'" [dark] ='dark'></app-input>
+    <app-input [placeholder]="'Test Input 1'" [dark] ='dark'></app-input>
+    <app-input [placeholder]="'Test Input 2'" [dark] ='dark'></app-input>
+    <app-button [name]="'Random'" [dark]='dark'></app-button>
 </div>

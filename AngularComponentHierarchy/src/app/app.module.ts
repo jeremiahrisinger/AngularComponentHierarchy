@@ -7,6 +7,8 @@ import { ButtonRowComponent } from './components/button-row/button-row.component
 import { TitleComponent } from './components/title/title.component';
 import { ContentComponent } from './components/content/content.component';
 import { InputComponent } from './components/input/input.component';
+import { PageComponent } from './components/page/page.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { InputComponent } from './components/input/input.component';
     ButtonRowComponent,
     TitleComponent,
     ContentComponent,
-    InputComponent
+    InputComponent,
+    PageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule

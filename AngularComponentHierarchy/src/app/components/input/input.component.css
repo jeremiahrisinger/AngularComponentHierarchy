@@ -4,3 +4,14 @@ input{
     border: 1px lightgrey solid;
     background-color: whitesmoke;
 }
+
+.dark{
+    background-color: darkgrey;
+    color: white;
+    border: 1px white solid;
+    
+}
+
+.dark::placeholder{
+    color: rgb(215, 215, 215);
+}

@@ -6,3 +6,6 @@ div{
     justify-content: space-evenly;
     row-gap: 20px;
 }
+.dark{
+    background-color: rgb(40, 40, 40);
+}
