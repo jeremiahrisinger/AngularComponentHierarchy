@@ -1,0 +1,8 @@
+div{
+    padding: 20px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
