@@ -1,4 +1,5 @@
-<div class="shadow"> 
+<div class="shadow"     
+    [ngClass]="{'dark': darkMode}"
+> 
     <h1>{{applicationName}}</h1>
-    <app-button [dark]="true" [name]="'Try Dark Mode'"></app-button>
 </div>

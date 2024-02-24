@@ -3,7 +3,14 @@ div{
     justify-content: space-between;
     padding: 10px 20px;
     height: 4vh;
+    border-bottom: 1px solid lightgrey;
 }
 h1{
-    font-weight: 100;
+    font-size: 20pt;
+}
+
+.dark{
+    background: black;
+    color: white;
+    border-bottom: 1px solid grey;
 }

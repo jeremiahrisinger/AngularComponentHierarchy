@@ -4,9 +4,9 @@ div{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     row-gap: 20px;
-    max-height: 35vh;
+    column-gap: 20px;
+    max-height: 30vh;
 }
 .dark{
     background-color: rgb(40, 40, 40);
