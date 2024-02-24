@@ -1,1 +1,5 @@
-<button [ngClass]="{'dark': dark}">{{name}}</button>
+<button 
+    type="submit"  
+    [ngClass]="{'dark': dark}"
+    (click)="getResponse(true)"
+>{{name}}</button>
