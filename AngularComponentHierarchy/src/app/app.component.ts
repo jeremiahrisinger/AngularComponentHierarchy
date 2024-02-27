@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular Component Hierarchy Application';
-  darkMode = false;
+  darkMode = true;
 }

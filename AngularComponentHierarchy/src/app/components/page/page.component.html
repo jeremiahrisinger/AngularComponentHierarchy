@@ -1,11 +1,13 @@
-<div [ngClass]="{'dark':darkMode}">
+<div [ngClass]="{'dark':darkMode}" class="page">
     <app-title 
         [name]="title"
         [dark]="darkMode"
     ></app-title>
-    <app-content
-        [dark]="darkMode"
-    ></app-content>
+    <div class="scrollable">
+        <app-content
+            [dark]="darkMode"
+        ></app-content>
+    </div>
     <app-button-row 
         [buttonNames]="buttons" 
         [dark]="darkMode">

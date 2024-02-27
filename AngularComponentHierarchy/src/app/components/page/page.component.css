@@ -1,19 +1,23 @@
-div{
+.page{
     border: 1px solid lightgrey;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
     max-height: 50vh;
-    max-width: 100%;
-
+    min-height: 300px;
+    width: 48vw;
+}
+.scrollable{
+    height: 25vh;
+    overflow-y: scroll;
 }
 
 .dark{
     border: 1px solid grey;
 }
 
-@media (width <= 800px) {
-    div{
+@media (width <= 1080px) {
+    .page{
         width: 100%;
     }
 }

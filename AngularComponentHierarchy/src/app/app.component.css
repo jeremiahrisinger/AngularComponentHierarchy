@@ -1,12 +1,12 @@
 .pages{
-    padding: 20px;
+    padding: 1vh 1vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 10px;
-    column-gap: 20px;
+    row-gap: 2vh;
+    column-gap: 1vw;
     overflow-y: scroll;
-    height: 89vh;
+    height: 90vh;
     background-color: rgba(0, 0, 0, 0.1);
 }
 .dark{

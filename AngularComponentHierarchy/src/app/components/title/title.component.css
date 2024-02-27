@@ -3,10 +3,11 @@ div{
     text-align: center;
     border-bottom: 1px solid lightgrey ;
     background-color: whitesmoke;
-
+    max-height: 5vh;
 }
 h1{
     font-weight: 100;
+    font-size: 3vh;
 }
 
 .dark{

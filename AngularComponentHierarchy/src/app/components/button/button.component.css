@@ -6,9 +6,20 @@ button{
     border-radius: 20px;
     border-style: solid;
     border-width: 1px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    transition: all 0.25s ease-in-out
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 }
 .dark{
     background-color: grey;
     border-color: white;
     color: white;
+}
+button.dark:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: grey;
 }

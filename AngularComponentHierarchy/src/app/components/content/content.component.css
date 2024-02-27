@@ -6,7 +6,8 @@ div{
     flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 20px;
-    max-height: 30vh;
+    max-height: 25vh;
+    min-height: 150px;
 }
 .dark{
     background-color: rgb(40, 40, 40);

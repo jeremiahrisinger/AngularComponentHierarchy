@@ -2,11 +2,15 @@ div{
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    height: 4vh;
+    height: 5vh;
     border-bottom: 1px solid lightgrey;
+    white-space: nowrap;
 }
 h1{
-    font-size: 20pt;
+    font-size: 3.5vh;
+    overflow-x: hidden;
+    overflow-y: visible;
+    text-overflow: ellipsis;
 }
 
 .dark{
