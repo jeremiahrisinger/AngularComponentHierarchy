@@ -3,6 +3,7 @@ div{
     background-color: whitesmoke;
     display: flex;
     justify-content: space-between;
+    column-gap: 20px;
     border-top: 1px solid lightgrey ;
 }
 
